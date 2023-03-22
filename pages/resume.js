@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import Cursor from "../components/Cursor";
 import Header from "../components/Header";
 import ProjectResume from "../components/ProjectResume";
-import Socials from "../components/Socials";
+import Specialization from "../components/Specializations";
 import Button from "../components/Button";
 import { useTheme } from "next-themes";
 // Data
@@ -51,7 +51,7 @@ const Resume = () => {
                 {resume.description}
               </h2>
               <div className="mt-2">
-                <Socials />
+                <Specialization />
               </div>
               <div className="mt-5">
                 <h1 className="text-2xl font-bold">Experience</h1>

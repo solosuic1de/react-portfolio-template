@@ -1,1 +1,211 @@
-{"name":"Chetan","headerTaglineOne":"Hello 👋","headerTaglineTwo":"I'm Chetan Verma - curious","headerTaglineThree":"designer and devloper","headerTaglineFour":" based in New Delhi, India.","showCursor":true,"showBlog":true,"darkMode":true,"showResume":true,"socials":[{"id":"1","title":"Github","link":"https://github.com/chetanverma16"},{"id":"2","title":"LinkedIn","link":"https://www.linkedin.com/in/chetanverma7/"},{"id":"3","title":"Twitter","link":"https://twitter.com/realchetanverma"},{"id":"4","title":"Blog","link":"https://blog.chetanverma.com/"},{"id":"5","title":"Email","link":"mailto:hello@chetanverma.com"}],"projects":[{"id":"1","title":"Project One Test","description":"Web Design","imageSrc":"https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"2","title":"Project Two","description":"Web Development","imageSrc":"https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"3","title":"Project Three","description":"Design","imageSrc":"https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"4","title":"Project Four","description":"Marketing","imageSrc":"https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"5","title":"Project Five","description":"Development","imageSrc":"https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"},{"id":"6","title":"Project Six","description":"Design & Development","imageSrc":"https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60","url":"http://chetanverma.com/"}],"services":[{"id":"1","title":"Art Direction","description":"We help with the creation and development of online advertising ideas, with particular focus on their visual appearance."},{"id":"2","title":"Branding","description":"We design key brand elements such as the logo, color scheme, typography, and other design components that makes your brand stand out from competitors."},{"id":"3","title":"Web Design","description":"We build and optimize your online presence.  Website is the digital entry point into your business and a powerful revenue channel."},{"id":"4","title":"3D Design","description":"We combine creative design and technical skills to build striking 3D visualisations that bring your project to life."}],"aboutpara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.","resume":{"tagline":"👋  I'm a software engineer, product designer.","description":"I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.","experiences":[{"id":"1","dates":"March 2022 - Present","type":"Full Time","position":"Frontend Engineer at X","bullets":"Bullet One, Bullet Two"},{"id":"d495c23b-4f65-479a-9b8a-cfbc1c089725","dates":"July 2020 - March 2022","type":"Full Time","position":"Frontend Engineer at X","bullets":"Worked on the frontend of a React application, Worked on the frontend of a React application"}],"education":{"universityName":"University X","universityDate":"2016-2020","universityPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"},"languages":["Javascript","HTML5","CSS","Python","Go"],"frameworks":["React","Typescript","NodeJs"],"others":["Figma","AdobeXD","AWS"]}}
+{
+    "name": "Юлія",
+    "headerTaglineOne": "Привіт 👋",
+    "headerTaglineTwo": "Я Сергійчук Юлія",
+    "headerTaglineThree": "Художниця",
+    "headerTaglineFour": "Знаходжусь в Києві.",
+    "showCursor": false,
+    "showBlog": false,
+    "darkMode": true,
+    "showResume": false,
+    "specializations": [
+        {
+            "id": "1",
+            "title": "Живопис"
+        },
+        {
+            "id": "2",
+            "title": "Ілюстрація"
+        },
+        {
+            "id": "3",
+            "title": "Графіка"
+        },
+        {
+            "id": "4",
+            "title": "Графічний планшет"
+        }
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "title": "У лісі",
+            "description": "Живопис, олійні фарби",
+            "url": "https://drive.google.com/uc?id=1WdS86psKFR88opmYiosWZQy-eoLto4Bf",
+            "imageSrc": "https://drive.google.com/uc?id=1WdS86psKFR88opmYiosWZQy-eoLto4Bf"
+        },
+        {
+            "id": "2",
+            "title": "Друзі",
+            "description": "Живопис, олійні фарби, робота на замовлення",
+            "url": "https://drive.google.com/uc?id=1zOZ3XzSZWqqEpFLg_Ej9KUj3i8KRCzRR",
+            "imageSrc": "https://drive.google.com/uc?id=1zOZ3XzSZWqqEpFLg_Ej9KUj3i8KRCzRR"
+        },
+        {
+            "id": "3",
+            "title": "Натюрморт",
+            "description": "Живопис, олійні фарби",
+            "imageSrc": "https://drive.google.com/uc?id=1Rh75D9RZrQBwA8wBvvuwr4Rhz8JimnnL",
+            "url": "https://drive.google.com/uc?id=1Rh75D9RZrQBwA8wBvvuwr4Rhz8JimnnL"
+        },
+        {
+            "id": "4",
+            "title": "Квіти",
+            "description": "Живопис, олійні фарби",
+            "imageSrc": "https://drive.google.com/uc?id=1LOBRRJYPQH6BgtaCtbRwynBwiNAYmvyY",
+            "url": "https://drive.google.com/uc?id=1LOBRRJYPQH6BgtaCtbRwynBwiNAYmvyY"
+        },
+        {
+            "id": "5",
+            "title": "Ілюстрація до джазового гурту",
+            "description": "Ілюстрація",
+            "imageSrc": "https://drive.google.com/uc?id=1ZItlKKtLRf4-DEdpjSjQXxnCsvKk49Jp",
+            "url": "https://drive.google.com/uc?id=1ZItlKKtLRf4-DEdpjSjQXxnCsvKk49Jp"
+        },
+        {
+            "id": "6",
+            "title": "Водяна",
+            "description": "Ілюстрація",
+            "imageSrc": "https://drive.google.com/uc?id=1i26VyHE5etkBTVxTN1uxdV7jtZspNaGh",
+            "url": "https://drive.google.com/uc?id=1i26VyHE5etkBTVxTN1uxdV7jtZspNaGh"
+        },
+        {
+            "id": "1234c860-841b-4e61-b2b2-21c2ee611ff4",
+            "title": "Ілюстрація до віршу Т. Шевченка \"Сон\"",
+            "description": "Ілюстрація ",
+            "imageSrc": "https://drive.google.com/uc?id=1Y7hLOiMbYYpvSoD1AfiYTEZjqL1omTfF",
+            "url": "https://drive.google.com/uc?id=1Y7hLOiMbYYpvSoD1AfiYTEZjqL1omTfF"
+        },
+        {
+            "id": "2b2e8c35-4afa-46ac-a8c0-fabf92e026ee",
+            "title": "Кохання",
+            "description": "Ілюстрація",
+            "imageSrc": "https://drive.google.com/uc?id=1O_3DTxQMxu8SUoO8OkLX_aLEkyNfPKVv",
+            "url": "https://drive.google.com/uc?id=1O_3DTxQMxu8SUoO8OkLX_aLEkyNfPKVv"
+        },
+        {
+            "id": "9",
+            "title": "Гола натура",
+            "description": "Графіка, вугілля",
+            "imageSrc": "https://drive.google.com/uc?id=1kp_QrAN0WAaf1DH3w-jxAObg53Gn9GCX",
+            "url": "https://drive.google.com/uc?id=1kp_QrAN0WAaf1DH3w-jxAObg53Gn9GCX"
+        },
+        {
+            "id": "1fe7396f-cfae-4e4f-88ee-84871d50cac9",
+            "title": "Портрет",
+            "description": "Графіка, олівець",
+            "imageSrc": "https://drive.google.com/uc?id=1r4p9wsNA-gfJemyMX1hFOt-Y-8koF8Re",
+            "url": "https://drive.google.com/uc?id=1r4p9wsNA-gfJemyMX1hFOt-Y-8koF8Re"
+        },
+        {
+            "id": "1fe7396f-cfae-4e4f-88ee-84871d50cac9",
+            "title": "Портрет дівчини",
+            "description": "Графіка, олівець",
+            "imageSrc": "https://drive.google.com/uc?id=1BjR0aQ1dCghEj2FyeqGvI_pRWsBPvglU",
+            "url": "https://drive.google.com/uc?id=1BjR0aQ1dCghEj2FyeqGvI_pRWsBPvglU"
+        },
+        {
+            "id": "1fe7396f-cfae-4e4f-88ee-84871d50cac9",
+            "title": "Профіль",
+            "description": "Графіка, вугілля",
+            "imageSrc": "https://drive.google.com/uc?id=1ZUK3gTvZumdrUMQoDUfUJCDc0-4j0XZQ",
+            "url": "https://drive.google.com/uc?id=1ZUK3gTvZumdrUMQoDUfUJCDc0-4j0XZQ"
+        },
+        {
+            "id": "1fe7396f-cfae-4e4f-88ee-84871d50cac9",
+            "title": "Володимир Зеленський",
+            "description": "Робота на замовлення, графічний планшет",
+            "imageSrc": "https://drive.google.com/uc?id=1rHkkXc2AV3vkYsV5Wly0TB7nfM48wI5P",
+            "url": "https://drive.google.com/uc?id=1rHkkXc2AV3vkYsV5Wly0TB7nfM48wI5P"
+        },
+        {
+            "id": "1fe7396f-cfae-4e4f-88ee-84871d50cac9",
+            "title": "Погляд в майбутнє",
+            "description": "Робота на замовлення, графічний планшет",
+            "imageSrc": "https://drive.google.com/uc?id=1qIwyQX8bLzhTIoKrPscKPduPzksnmuqZ",
+            "url": "https://drive.google.com/uc?id=1qIwyQX8bLzhTIoKrPscKPduPzksnmuqZ"
+        },
+        {
+            "id": "1fe7396f-cfae-4e4f-88ee-84871d50cac9",
+            "title": "Ельфійка",
+            "description": "Графічний планшет",
+            "imageSrc": "https://drive.google.com/uc?id=19l0x0RED6c6qFGk7DCv_wxEm_IHsFW7s",
+            "url": "https://drive.google.com/uc?id=19l0x0RED6c6qFGk7DCv_wxEm_IHsFW7s"
+        },
+        {
+            "id": "1fe7396f-cfae-4e4f-88ee-84871d50cac9",
+            "title": "Пасажир",
+            "description": "Графічний планшет",
+            "imageSrc": "https://drive.google.com/uc?id=1bo5s_dxI8d2IR8LxpJ7VVLGfw8ZNJiD2",
+            "url": "https://drive.google.com/uc?id=1bo5s_dxI8d2IR8LxpJ7VVLGfw8ZNJiD2"
+        }
+    ],
+    "services": [
+        {
+            "id": "1",
+            "title": "Живопис",
+            "description": "Малюю олійними фарбами, аквареллю та акрилом"
+        },
+        {
+            "id": "2",
+            "title": "Графіка",
+            "description": "Використовую м'які матеріали, олівець"
+        },
+        {
+            "id": "3",
+            "title": "Ілюстрація",
+            "description": "Візуалізую ідеї на графічгому планшеті"
+        },
+        {
+            "id": "4",
+            "title": "Діджитал",
+            "description": "Виконую роботи різного аспекту використовуючи графічний планшет та редактори"
+        }
+    ],
+    "aboutparaHeader": "Привіт! Мене звати Юлія і я художниця, яка працює з різними видами мистецтва.",
+    "aboutpara": "Мій основний напрямок - живопис. Я люблю створювати різноманітні картини, де можна побачити мої емоції та відчуття. Однак, нарівні з живописом, я також займаюсь графікою. Я віддаю перевагу роботі з цифровими програмами та графічним планшетом, що дає мені більшу свободу у створенні та редагуванні моїх ілюстрацій.",
+    "aboutparaSecondChapter": "Мені дуже подобається експериментувати з формами, кольорами та текстурами.\n\nУ моїй роботі я також не забуваю про ілюстрацію. Якщо мені потрібно створити ілюстрації для дитячої книжки я буду рада надати свої послуги в цьому напрямку.\n\nУ своїй творчості я дуже люблю експериментувати та вдосконалювати свої навички. Я завжди в пошуках нових викликів та ідей, щоб зробити свої роботи найкращими. Якщо вам потрібно створити щось особливе, я буду рада допомогти вам в цьому.",
+    "aboutparaLast": "Я навела приклади тільки деяких моїх робіт, в мене їх ще дуже багато, з задоволенням всі їх вам покажу :)",
+    "resume": {
+        "tagline": "👋  I'm a software engineer, product designer.",
+        "description": "I have delivered world-class user experiences to millions of people. Well-versed with React, Javascript, and most of the Web frameworks.",
+        "experiences": [
+            {
+                "id": "1",
+                "dates": "March 2022 - Present",
+                "type": "Full Time",
+                "position": "Frontend Engineer at X",
+                "bullets": "Bullet One, Bullet Two"
+            },
+            {
+                "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+                "dates": "July 2020 - March 2022",
+                "type": "Full Time",
+                "position": "Frontend Engineer at X",
+                "bullets": "Worked on the frontend of a React application, Worked on the frontend of a React application"
+            }
+        ],
+        "education": {
+            "universityName": "University X",
+            "universityDate": "2016-2020",
+            "universityPara": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
+        },
+        "languages": [
+            "Javascript",
+            "HTML5",
+            "CSS",
+            "Python",
+            "Go"
+        ],
+        "frameworks": [
+            "React",
+            "Typescript",
+            "NodeJs"
+        ],
+        "others": [
+            "Figma",
+            "AdobeXD",
+            "AWS"
+        ]
+    }
+}

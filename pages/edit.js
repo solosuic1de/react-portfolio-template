@@ -497,7 +497,7 @@ const Edit = () => {
         )}
         {currentTabs === "SOCIAL" && (
           <div className="mt-10">
-            {data.socials.map((social, index) => (
+            {data.specializations.map((social, index) => (
               <>
                 <div key={social.id}>
                   <div className="flex items-center justify-between">
