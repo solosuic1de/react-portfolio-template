@@ -15,6 +15,18 @@ import Cursor from "../components/Cursor";
 import data from "../data/portfolio.json";
 
 export default function Home() {
+    const PAINTING = "painting";
+    const GRAHPIC = "graphic";
+    const ILLUSTRATIONS = "illustrations";
+    const TABLET = "tablet";
+    const WATERCOLOR = "watercolor"
+
+    const painting = data.projects.filter(el => el.category == PAINTING);
+    const illustrations = data.projects.filter(el => el.category == ILLUSTRATIONS);
+    const graphic = data.projects.filter(el => el.category == GRAHPIC);
+    const tablet = data.projects.filter(el => el.category == TABLET);
+    const watercolor = data.projects.filter(el => el.category == WATERCOLOR);
+
     // Ref
     const workRef = useRef();
     const aboutRef = useRef();
@@ -22,7 +34,12 @@ export default function Home() {
     const textTwo = useRef();
     const textThree = useRef();
     const textFour = useRef();
-
+    const footerRef = useRef();
+    const paintingRef = useRef();
+    const graphicsRef = useRef();
+    const illustrationRef = useRef();
+    const watercolorRef = useRef();
+    const graphicsTabletRef = useRef();
     // Handling Scroll
     const handleWorkScroll = () => {
         window.scrollTo({
@@ -35,6 +52,55 @@ export default function Home() {
     const handleAboutScroll = () => {
         window.scrollTo({
             top: aboutRef.current.offsetTop,
+            left: 0,
+            behavior: "smooth",
+        });
+    };
+
+    const handleFooterScroll = () => {
+        window.scrollTo({
+            top: footerRef.current.offsetTop,
+            left: 0,
+            behavior: "smooth",
+        });
+    };
+
+    const handlePaintingScroll = () => {
+        window.scrollTo({
+            top: paintingRef.current.offsetTop,
+            left: 0,
+            behavior: "smooth",
+        });
+    };
+
+
+    const handleGraphicsScroll = () => {
+        window.scrollTo({
+            top: graphicsRef.current.offsetTop,
+            left: 0,
+            behavior: "smooth",
+        });
+    };
+
+    const handleIllustrationScroll = () => {
+        window.scrollTo({
+            top: illustrationRef.current.offsetTop,
+            left: 0,
+            behavior: "smooth",
+        });
+    };
+
+    const handleWatercolorScroll = () => {
+        window.scrollTo({
+            top: watercolorRef.current.offsetTop,
+            left: 0,
+            behavior: "smooth",
+        });
+    };
+
+    const handleGraphicsTabletRefScroll = () => {
+        window.scrollTo({
+            top: graphicsTabletRef.current.offsetTop,
             left: 0,
             behavior: "smooth",
         });
@@ -62,6 +128,7 @@ export default function Home() {
                 <Header
                     handleWorkScroll={handleWorkScroll}
                     handleAboutScroll={handleAboutScroll}
+                    handleFooterScroll={handleFooterScroll}
                 />
                 <div className="laptop:mt-20 mt-10">
                     <div className="mt-5">
@@ -91,13 +158,19 @@ export default function Home() {
                         </h1>
                     </div>
 
-                    <Specialization className="mt-2 laptop:mt-5"/>
+                    <Specialization
+                        handleGraphicsScroll={handleGraphicsScroll}
+                        handleIllustrationScroll={handleIllustrationScroll}
+                        handlePaintingScroll={handlePaintingScroll}
+                        handleGraphicsTabletRefScroll={handleGraphicsTabletRefScroll}
+                        handleWatercolorScroll={handleWatercolorScroll}
+                        className="mt-2 laptop:mt-5"/>
                 </div>
                 <div className="mt-10 laptop:mt-30 p-2 laptop:p-0" ref={workRef}>
                     <h1 className="text-2xl text-bold">Мої роботи.</h1>
 
-                    <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4">
-                        {data.projects.map((project) => (
+                    <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4" ref={paintingRef}>
+                        {painting.map((project) => (
                             <WorkCard
                                 key={project.id}
                                 img={project.imageSrc}
@@ -107,8 +180,53 @@ export default function Home() {
                             />
                         ))}
                     </div>
+                    <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4" ref={illustrationRef}>
+                        {illustrations.map((project) => (
+                            <WorkCard
+                                key={project.id}
+                                img={project.imageSrc}
+                                name={project.title}
+                                description={project.description}
+                                onClick={() => window.open(project.url)}
+                            />
+                        ))}
+                    </div>
+                    <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4" ref={graphicsRef}>
+                        {graphic.map((project) => (
+                            <WorkCard
+                                key={project.id}
+                                img={project.imageSrc}
+                                name={project.title}
+                                description={project.description}
+                                onClick={() => window.open(project.url)}
+                            />
+                        ))}
+                    </div>
+                    <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4"
+                         ref={graphicsTabletRef}>
+                        {tablet.map((project) => (
+                            <WorkCard
+                                key={project.id}
+                                img={project.imageSrc}
+                                name={project.title}
+                                description={project.description}
+                                onClick={() => window.open(project.url)}
+                            />
+                        ))}
+                    </div>
+                    <div className="mt-5 laptop:mt-10 grid grid-cols-1 tablet:grid-cols-2 gap-4"
+                        ref={watercolorRef}>
+                        {watercolor.map((project) => (
+                                <WorkCard
+                                    key={project.id}
+                                    img={project.imageSrc}
+                                    name={project.title}
+                                    description={project.description}
+                                    onClick={() => window.open(project.url)}
+                                />
+                                ))}
+                    </div>
                 </div>
-
                 <div className="mt-10 laptop:mt-30 p-2 laptop:p-0">
                     <h1 className="tablet:m-10 text-2xl text-bold">З чим я працюю</h1>
                     <div className="mt-5 tablet:m-10 grid grid-cols-1 laptop:grid-cols-2 gap-6">
@@ -120,6 +238,7 @@ export default function Home() {
                             />
                         ))}
                     </div>
+
                 </div>
                 {/* This button should not go into production */}
                 {process.env.NODE_ENV === "development" && (
@@ -144,7 +263,9 @@ export default function Home() {
                         {data.aboutparaLast}
                     </p>
                 </div>
-                <Footer/>
+                <div ref={footerRef}>
+                    <Footer/>
+                </div>
             </div>
         </div>
     );

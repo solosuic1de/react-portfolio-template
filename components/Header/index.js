@@ -6,7 +6,7 @@ import Button from "../Button";
 // Local Data
 import data from "../../data/portfolio.json";
 
-const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
+const Header = ({ handleWorkScroll, handleAboutScroll, handleFooterScroll, isBlog }) => {
   const router = useRouter();
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
@@ -84,8 +84,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     </Button>
                   )}
 
-                  <Button onClick={handleAboutScroll}>
-                    Мої контакти
+                  <Button onClick={handleFooterScroll}>
+                    Контакти
                   </Button>
                 </div>
               ) : (
@@ -105,8 +105,8 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     </Button>
                   )}
 
-                  <Button onClick={handleAboutScroll}>
-                    Мої контакти
+                  <Button onClick={handleFooterScroll}>
+                    Контакти
                   </Button>
                 </div>
               )}
@@ -141,7 +141,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={handleAboutScroll}>
+            <Button onClick={handleFooterScroll}>
               Контакти
             </Button>
             {mounted && theme && data.darkMode && (

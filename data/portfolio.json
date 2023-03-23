@@ -14,16 +14,20 @@
             "title": "Живопис"
         },
         {
-            "id": "2",
+            "id": "3",
             "title": "Ілюстрація"
         },
         {
-            "id": "3",
+            "id": "4",
             "title": "Графіка"
         },
         {
-            "id": "4",
+            "id": "5",
             "title": "Графічний планшет"
+        },
+        {
+            "id": "2",
+            "title": "Акварель та акрил"
         }
     ],
     "projects": [
@@ -32,112 +36,152 @@
             "title": "У лісі",
             "description": "Живопис, олійні фарби",
             "url": "https://drive.google.com/uc?id=1WdS86psKFR88opmYiosWZQy-eoLto4Bf",
-            "imageSrc": "https://drive.google.com/uc?id=1WdS86psKFR88opmYiosWZQy-eoLto4Bf"
+            "imageSrc": "https://drive.google.com/uc?id=1WdS86psKFR88opmYiosWZQy-eoLto4Bf",
+            "category": "painting"
         },
         {
             "id": "2",
             "title": "Друзі",
             "description": "Живопис, олійні фарби, робота на замовлення",
             "url": "https://drive.google.com/uc?id=1zOZ3XzSZWqqEpFLg_Ej9KUj3i8KRCzRR",
-            "imageSrc": "https://drive.google.com/uc?id=1zOZ3XzSZWqqEpFLg_Ej9KUj3i8KRCzRR"
+            "imageSrc": "https://drive.google.com/uc?id=1zOZ3XzSZWqqEpFLg_Ej9KUj3i8KRCzRR",
+            "category": "painting"
         },
         {
             "id": "3",
             "title": "Натюрморт",
             "description": "Живопис, олійні фарби",
             "imageSrc": "https://drive.google.com/uc?id=1Rh75D9RZrQBwA8wBvvuwr4Rhz8JimnnL",
-            "url": "https://drive.google.com/uc?id=1Rh75D9RZrQBwA8wBvvuwr4Rhz8JimnnL"
+            "url": "https://drive.google.com/uc?id=1Rh75D9RZrQBwA8wBvvuwr4Rhz8JimnnL",
+            "category": "painting"
         },
         {
             "id": "4",
             "title": "Квіти",
             "description": "Живопис, олійні фарби",
             "imageSrc": "https://drive.google.com/uc?id=1LOBRRJYPQH6BgtaCtbRwynBwiNAYmvyY",
-            "url": "https://drive.google.com/uc?id=1LOBRRJYPQH6BgtaCtbRwynBwiNAYmvyY"
+            "url": "https://drive.google.com/uc?id=1LOBRRJYPQH6BgtaCtbRwynBwiNAYmvyY",
+            "category": "painting"
         },
         {
             "id": "5",
             "title": "Ілюстрація до джазового гурту",
             "description": "Ілюстрація",
             "imageSrc": "https://drive.google.com/uc?id=1ZItlKKtLRf4-DEdpjSjQXxnCsvKk49Jp",
-            "url": "https://drive.google.com/uc?id=1ZItlKKtLRf4-DEdpjSjQXxnCsvKk49Jp"
+            "url": "https://drive.google.com/uc?id=1ZItlKKtLRf4-DEdpjSjQXxnCsvKk49Jp",
+            "category": "illustrations"
         },
         {
             "id": "6",
             "title": "Водяна",
             "description": "Ілюстрація",
             "imageSrc": "https://drive.google.com/uc?id=1i26VyHE5etkBTVxTN1uxdV7jtZspNaGh",
-            "url": "https://drive.google.com/uc?id=1i26VyHE5etkBTVxTN1uxdV7jtZspNaGh"
+            "url": "https://drive.google.com/uc?id=1i26VyHE5etkBTVxTN1uxdV7jtZspNaGh",
+            "category": "illustrations"
         },
         {
             "id": "1234c860-841b-4e61-b2b2-21c2ee611ff4",
             "title": "Ілюстрація до віршу Т. Шевченка \"Сон\"",
             "description": "Ілюстрація ",
             "imageSrc": "https://drive.google.com/uc?id=1Y7hLOiMbYYpvSoD1AfiYTEZjqL1omTfF",
-            "url": "https://drive.google.com/uc?id=1Y7hLOiMbYYpvSoD1AfiYTEZjqL1omTfF"
+            "url": "https://drive.google.com/uc?id=1Y7hLOiMbYYpvSoD1AfiYTEZjqL1omTfF",
+            "category": "illustrations"
         },
         {
             "id": "2b2e8c35-4afa-46ac-a8c0-fabf92e026ee",
             "title": "Кохання",
             "description": "Ілюстрація",
             "imageSrc": "https://drive.google.com/uc?id=1O_3DTxQMxu8SUoO8OkLX_aLEkyNfPKVv",
-            "url": "https://drive.google.com/uc?id=1O_3DTxQMxu8SUoO8OkLX_aLEkyNfPKVv"
+            "url": "https://drive.google.com/uc?id=1O_3DTxQMxu8SUoO8OkLX_aLEkyNfPKVv",
+            "category": "illustrations"
         },
         {
             "id": "9",
             "title": "Гола натура",
             "description": "Графіка, вугілля",
             "imageSrc": "https://drive.google.com/uc?id=1kp_QrAN0WAaf1DH3w-jxAObg53Gn9GCX",
-            "url": "https://drive.google.com/uc?id=1kp_QrAN0WAaf1DH3w-jxAObg53Gn9GCX"
+            "url": "https://drive.google.com/uc?id=1kp_QrAN0WAaf1DH3w-jxAObg53Gn9GCX",
+            "category": "graphic"
         },
         {
             "id": "1fe7396f-cfae-4e4f-88ee-84871d50cac9",
             "title": "Портрет",
             "description": "Графіка, олівець",
             "imageSrc": "https://drive.google.com/uc?id=1r4p9wsNA-gfJemyMX1hFOt-Y-8koF8Re",
-            "url": "https://drive.google.com/uc?id=1r4p9wsNA-gfJemyMX1hFOt-Y-8koF8Re"
+            "url": "https://drive.google.com/uc?id=1r4p9wsNA-gfJemyMX1hFOt-Y-8koF8Re",
+            "category": "graphic"
         },
         {
             "id": "1fe7396f-cfae-4e4f-88ee-84871d50cac9",
             "title": "Портрет дівчини",
             "description": "Графіка, олівець",
             "imageSrc": "https://drive.google.com/uc?id=1BjR0aQ1dCghEj2FyeqGvI_pRWsBPvglU",
-            "url": "https://drive.google.com/uc?id=1BjR0aQ1dCghEj2FyeqGvI_pRWsBPvglU"
+            "url": "https://drive.google.com/uc?id=1BjR0aQ1dCghEj2FyeqGvI_pRWsBPvglU",
+            "category": "graphic"
         },
         {
             "id": "1fe7396f-cfae-4e4f-88ee-84871d50cac9",
             "title": "Профіль",
             "description": "Графіка, вугілля",
             "imageSrc": "https://drive.google.com/uc?id=1ZUK3gTvZumdrUMQoDUfUJCDc0-4j0XZQ",
-            "url": "https://drive.google.com/uc?id=1ZUK3gTvZumdrUMQoDUfUJCDc0-4j0XZQ"
+            "url": "https://drive.google.com/uc?id=1ZUK3gTvZumdrUMQoDUfUJCDc0-4j0XZQ",
+            "category": "graphic"
         },
         {
             "id": "1fe7396f-cfae-4e4f-88ee-84871d50cac9",
             "title": "Володимир Зеленський",
             "description": "Робота на замовлення, графічний планшет",
             "imageSrc": "https://drive.google.com/uc?id=1rHkkXc2AV3vkYsV5Wly0TB7nfM48wI5P",
-            "url": "https://drive.google.com/uc?id=1rHkkXc2AV3vkYsV5Wly0TB7nfM48wI5P"
+            "url": "https://drive.google.com/uc?id=1rHkkXc2AV3vkYsV5Wly0TB7nfM48wI5P",
+            "category": "tablet"
         },
         {
             "id": "1fe7396f-cfae-4e4f-88ee-84871d50cac9",
             "title": "Погляд в майбутнє",
             "description": "Робота на замовлення, графічний планшет",
             "imageSrc": "https://drive.google.com/uc?id=1qIwyQX8bLzhTIoKrPscKPduPzksnmuqZ",
-            "url": "https://drive.google.com/uc?id=1qIwyQX8bLzhTIoKrPscKPduPzksnmuqZ"
+            "url": "https://drive.google.com/uc?id=1qIwyQX8bLzhTIoKrPscKPduPzksnmuqZ",
+            "category": "tablet"
         },
         {
             "id": "1fe7396f-cfae-4e4f-88ee-84871d50cac9",
             "title": "Ельфійка",
             "description": "Графічний планшет",
             "imageSrc": "https://drive.google.com/uc?id=19l0x0RED6c6qFGk7DCv_wxEm_IHsFW7s",
-            "url": "https://drive.google.com/uc?id=19l0x0RED6c6qFGk7DCv_wxEm_IHsFW7s"
+            "url": "https://drive.google.com/uc?id=19l0x0RED6c6qFGk7DCv_wxEm_IHsFW7s",
+            "category": "tablet"
         },
         {
             "id": "1fe7396f-cfae-4e4f-88ee-84871d50cac9",
             "title": "Пасажир",
             "description": "Графічний планшет",
             "imageSrc": "https://drive.google.com/uc?id=1bo5s_dxI8d2IR8LxpJ7VVLGfw8ZNJiD2",
-            "url": "https://drive.google.com/uc?id=1bo5s_dxI8d2IR8LxpJ7VVLGfw8ZNJiD2"
+            "url": "https://drive.google.com/uc?id=1bo5s_dxI8d2IR8LxpJ7VVLGfw8ZNJiD2",
+            "category": "tablet"
+        },
+        {
+            "id": "1fe7396f-cfae-4e4f-88ee-84871d50cac9",
+            "title": "Репродукція картини \"У ліжку: Поцілунок\"",
+            "description": "Акрил",
+            "imageSrc": "https://drive.google.com/uc?id=18i77Daj9yEESd6Dmm5oYm5X0kOU2_pH2",
+            "url": "https://drive.google.com/uc?id=18i77Daj9yEESd6Dmm5oYm5X0kOU2_pH2",
+            "category": "watercolor"
+        },
+        {
+            "id": "1fe7396f-cfae-4e4f-88ee-84871d50cac9",
+            "title": "Репродукція картини \"Закохані\"",
+            "description": "Акварель",
+            "imageSrc": "https://drive.google.com/uc?id=1YdAewneYiO-vXdrpqnJGyhmYrs-QaEIw",
+            "url": "https://drive.google.com/uc?id=1YdAewneYiO-vXdrpqnJGyhmYrs-QaEIw",
+            "category": "watercolor"
+        },
+        {
+            "id": "1fe7396f-cfae-4e4f-88ee-84871d50cac9",
+            "title": "Репродукція картини \"Поцілунок\"",
+            "description": "Акварель та акрил",
+            "imageSrc": "https://drive.google.com/uc?id=1tGV2_pGLStck0aie_i6zY-hvP-g0PQHQ",
+            "url": "https://drive.google.com/uc?id=1tGV2_pGLStck0aie_i6zY-hvP-g0PQHQ",
+            "category": "watercolor"
         }
     ],
     "services": [
